@@ -66,7 +66,7 @@ pip install -r requirements.txt
 
 #### 1. Baseline Route Optimization (`fm3.py`):
 ```bash
-python3 fm3.py
+python3 flare_graph/fm3.py
 ```
 
 **Sample Input:**
@@ -82,7 +82,7 @@ coords of 1th obstacle: 20 30
 
 #### 2. Confidence-Weighted Route Optimization (`fm4.py`):
 ```bash
-python3 fm4.py
+python3 flare_graph/fm4.py
 ```
 
 **Sample Input:**
@@ -128,11 +128,9 @@ A pure-Python implementation of core string manipulation algorithms built from s
 ```
 ├── README.md           # Documentation & mathematical explanations
 ├── string.py           # Custom string algorithms implementation
-├── fm3.py              # Baseline AUV flare path planning & obstacle avoidance
-├── fm4.py              # Confidence-weighted AUV flare path planning
 ├── requirements.txt    # Dependencies (numpy, matplotlib)
 ├── .gitignore          # Git ignore rules for Python artifacts
-└── flare_graph/        # Flare mapping & navigation algorithm development
+└── flare_graph/        # Complete flare mapping & navigation algorithm development
     ├── flares.py       # Baseline flare coordinate plotting
     ├── fm.py           # Greedy nearest-flare traversal
     ├── fm2.py          # Permutation-based exhaustive route planner
