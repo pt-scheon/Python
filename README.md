@@ -110,14 +110,35 @@ coords of 0th obstacle: 5 10
 
 ---
 
-## 📂 Repository Structure
+---
+
+## 🔤 Custom String Methods (`string.py`)
+
+A pure-Python implementation of core string manipulation algorithms built from scratch without standard library string built-ins:
+* Case conversion: `upperr()`, `lowerr()`, `capi()`, `tittle()`, `swapc()`
+* Search & counting: `counnt()`, `findd()`, `indexx()`
+* Boundary checks: `startswithh()`, `endsswith()`
+* String transformations: `splitt()`, `joinn()`, `zfilll()`, `centerr()`, `ljustt()`, `rjustt()`
+* Character classification: `isalphanumerica()`, `isalphabeta()`, `isascii()`, `isdigitt()`, `isspacee()`, `islowerr()`, `isupperr()`
+
+---
+
+## 📁 Project Structure
 
 ```
 ├── README.md           # Documentation & mathematical explanations
+├── string.py           # Custom string algorithms implementation
 ├── fm3.py              # Baseline AUV flare path planning & obstacle avoidance
 ├── fm4.py              # Confidence-weighted AUV flare path planning
 ├── requirements.txt    # Dependencies (numpy, matplotlib)
-└── .gitignore          # Git ignore rules for Python artifacts
+├── .gitignore          # Git ignore rules for Python artifacts
+└── flare_graph/        # Flare mapping & navigation algorithm development
+    ├── flares.py       # Baseline flare coordinate plotting
+    ├── fm.py           # Greedy nearest-flare traversal
+    ├── fm2.py          # Permutation-based exhaustive route planner
+    ├── fm3.py          # Route optimization with obstacle avoidance
+    ├── fm4.py          # Sensor confidence-weighted route optimization
+    └── fm5.py          # Multi-flare simulation and comparative benchmarks
 ```
 
 ---
