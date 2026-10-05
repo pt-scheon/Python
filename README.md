@@ -147,3 +147,9 @@ A pure-Python implementation of core string manipulation algorithms built from s
 * **Matplotlib** — 2D visualization & trajectory rendering
 * **Itertools** — Permutation search for path optimization
 * **Math** — Geometric hypot and vector calculations
+
+---
+
+## 🔢 Number to Word Converter (Indian System)
+
+A Python tool that converts integer numbers into their English word representations based on the **Indian Numbering System** (Hundred, Thousand, Lakh, Crore, Arab). Located in the `letter_to_num/` folder.
