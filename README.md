@@ -21,6 +21,9 @@ Scripts that convert integer numbers into their English word representations bas
 * **`letter2num.py`** — Interactive script that takes an integer input and prints its word representation.
 * **`letter2num2.py`** — Functional version that can automatically convert dictionaries of numbers using dictionary comprehension.
 
+### 4. 📋 List Methods (`auv/list_methods/`)
+Demonstrations and implementations of common Python list operations, including `insert`, `remove`, `pop`, `reverse`, `sort`, and element deletion.
+
 ---
 
 ## 🛠 Requirements
