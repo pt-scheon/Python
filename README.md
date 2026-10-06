@@ -16,13 +16,13 @@ Path planning and obstacle avoidance algorithms for an Autonomous Underwater Veh
 ### 2. 🔤 Custom String Methods (`string.py`)
 A custom Python script that recreates standard string methods entirely from scratch (e.g., `upper`, `split`, `find`, `isalpha`) without using Python's built-in string functions.
 
-### 3. 🔢 Number to Word Converter (`letter_to_num/`)
+### 3. 🔢 Number to Word Conv  erter (`letter_to_num/`)
 Scripts that convert integer numbers into their English word representations based on the Indian Numbering System (Lakh, Crore, Arab).
 * **`letter2num.py`** — Interactive script that takes an integer input and prints its word representation.
 * **`letter2num2.py`** — Functional version that can automatically convert dictionaries of numbers using dictionary comprehension.
 
 ### 4. 📋 List Methods (`auv/list_methods/`)
-Demonstrations and implementations of common Python list operations, including `insert`, `remove`, `pop`, `reverse`, `sort`, and element deletion.
+Demonstrations and implementations of common Python list operations defined from scratch without using in-built list methods, including `insert`, `remove`, `pop`, `reverse`, `sort`, and element deletion.
 
 ---
 
