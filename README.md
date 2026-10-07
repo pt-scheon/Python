@@ -24,6 +24,9 @@ Scripts that convert integer numbers into their English word representations bas
 ### 4. 📋 List Methods (`auv/list_methods/`)
 Demonstrations and implementations of common Python list operations defined from scratch without using in-built list methods, including `insert`, `remove`, `pop`, `reverse`, `sort`, and element deletion.
 
+### 5. 🟢 Shapes (`auv/shapes/`)
+Scripts for defining, drawing, and computing properties of various geometric shapes, including circles, triangles, parallelograms, and more.
+
 ---
 
 ## 🛠 Requirements
